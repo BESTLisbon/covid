@@ -470,6 +470,12 @@ section {
   font-size: 12px;
 }
 
+@media (max-width: 1200px) {
+  #nino-slider .carousel-inner {
+    height: 500px;
+  }
+}
+
 @media (max-width: 767px) {
   /* =============== MENU AREA =============== */
   #nino-navbar {
@@ -512,7 +518,7 @@ section {
     padding-top: 10px;
   }
   #nino-slider .carousel-inner {
-    height: 400px;
+    height: 500px;
   }
   #nino-slider .carousel-indicators {
     margin-top: 30px;
@@ -534,7 +540,7 @@ section {
     font-size: 22px;
   }
   #nino-slider .carousel-inner {
-    height: 400px;
+    height: 500px;
   }
   #nino-slider .carousel-indicators li .number {
     display: none;
@@ -553,5 +559,8 @@ section {
   }
   #nino-slider .carousel-indicators li.active .inner {
     border-color: #fff;
+  }
+  #nino-slider .carousel-inner {
+    height: 550px;
   }
 }
